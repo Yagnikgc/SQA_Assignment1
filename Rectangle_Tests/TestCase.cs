@@ -11,6 +11,7 @@ namespace Rectangle_Tests
     [TestFixture]
     class TestCase
     {
+        //validate length retrival
         [Test]
         public void Test_GetLength()
         {
@@ -20,6 +21,7 @@ namespace Rectangle_Tests
             int length = testRectangle.GetLength();
             Assert.AreEqual(length, l);
         }
+        //validate Width retrival
         [Test]
         public void Test_GetWidth()
         {
@@ -29,6 +31,7 @@ namespace Rectangle_Tests
             int width = testRectangle.GetWidth();
             Assert.AreEqual(width, w);
         }
+        //validate Setlength() method
         [Test]
         public void Test_SetLength()
         {
@@ -37,6 +40,7 @@ namespace Rectangle_Tests
             int val = rectangle.SetLength(temp);
             Assert.AreEqual(val, temp);
         }
+        //validate SetWidth() method
         [Test]
         public void Test_SetWidth()
         {
@@ -45,6 +49,7 @@ namespace Rectangle_Tests
             int val = rectangle.SetWidth(temp);
             Assert.AreEqual(val, temp);
         }
+        //validate the output of GetPerimeter() method
         [Test]
         public void Test_GetPerimeter()
         {
@@ -53,6 +58,7 @@ namespace Rectangle_Tests
             int answer = rectangle.GetPerimeter();
             Assert.AreEqual(answer, (2 * (l + w)));
         }
+        //validate the output of GetArea() method
         [Test]
         public void Test_GetArea()
         {

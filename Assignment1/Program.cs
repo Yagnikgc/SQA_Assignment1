@@ -11,6 +11,7 @@ namespace Assignment1
         int length, width;
         static void Main(string[] args)
         {
+            //start program execution
             new Program().Go();
         }
 
@@ -21,6 +22,7 @@ namespace Assignment1
             Rectangle rectangle = new Rectangle(length, width);
             while (true)
             {
+                //display options to user
                 Console.WriteLine("\n\t1. Get Rectangle Length\n" +
                     "\t2. Change Rectangle Length\n" +
                     "\t3. Get Rectangle Width\n" +
@@ -29,20 +31,26 @@ namespace Assignment1
                     "\t6. GetRectangle Area\n" +
                     "\t7. Exit\n");
                 Console.Write("Choose an option: ");
+                //get input based on options
                 string option = Console.ReadLine();
                 int opt;
+                //validate user input for option
                 if(int.TryParse(option, out opt))
                 {
+                    //exit program
                     if(opt == 7)
                     {
                         Console.WriteLine("Good Bye");
                         break;
-                    }else if (opt > 6 || opt <= 0)
+                    }
+                    //validate input range
+                    else if (opt > 6 || opt <= 0)
                     {
                         Console.Write("\n\tInvalid option\n\tplease enter again");
                     }
                     else
                     {
+                        //perform tasks as per user input
                         switch (opt)
                         {
                             case 1:
@@ -70,10 +78,12 @@ namespace Assignment1
                 }
                 else
                 {
+                    //display error message
                     Console.Write("\n\tCharacters are not allowed\n\tplease enter again");
                 }
             }
         }
+        //get data from the user and return it after validation
         public int getInput(string para)
         {
             string strVal;
@@ -86,14 +96,14 @@ namespace Assignment1
                 {
                     if (val <= 0)
                     {
-                        Console.Write("\n\t"+para + " can't be negative or zero\n\tplease enter again");
+                        Console.WriteLine("\n\t"+para + " can't be negative or zero\n\tplease enter again");
                     }
                     else
                         return val;
                 }
                 else
                 {
-                    Console.Write("\n\tCharacters are not allowed\n\tplease enter again");
+                    Console.WriteLine("\n\tCharacters are not allowed\n\tplease enter again");
                 }
             }
         }
