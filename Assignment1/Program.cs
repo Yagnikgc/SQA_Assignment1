@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Program
+    public class Program
     {
         int length, width;
         static void Main(string[] args)
@@ -14,7 +14,7 @@ namespace Assignment1
             new Program().Go();
         }
 
-        private void Go()
+        public void Go()
         {
             length = getInput("Length");
             width = getInput("Width");
@@ -74,7 +74,7 @@ namespace Assignment1
                 }
             }
         }
-        private int getInput(string para)
+        public int getInput(string para)
         {
             string strVal;
             int val;

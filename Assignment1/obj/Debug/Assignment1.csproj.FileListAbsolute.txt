@@ -5,3 +5,7 @@ C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\obj\Debug\As
 C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
 C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\obj\Debug\Assignment1.exe
 C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\bin\Debug\nunit.framework.dll
+C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\bin\Debug\nunit.framework.xml
+C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CopyComplete
+C:\Users\yagni\OneDrive\Documents\Sem 2\SQA\Assignment1\Assignment1\bin\Debug\nunit.framework.pdb
